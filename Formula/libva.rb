@@ -23,7 +23,7 @@ class Libva < Formula
   depends_on "pkg-config" => :build
   depends_on "autoconf" => :build
 
-  depends_on "linuxbrew/xorg/libdrm"
+  depends_on "tz-lom/linux/libdrm"
   #depends_on "linuxbrew/xorg/wayland" => :recommended
 
   depends_on "libtool" => :build if build.without?("wayland")

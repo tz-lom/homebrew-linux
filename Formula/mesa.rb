@@ -23,7 +23,7 @@ class Mesa < Formula
   depends_on "linuxbrew/xorg/fixesproto"
   depends_on "linuxbrew/xorg/videoproto"
 
-  depends_on "linuxbrew/xorg/libdrm"
+  depends_on "tz-lom/linux/libdrm"
   depends_on "systemd" # provides libudev <= needed by "gbm"
   depends_on "linuxbrew/xorg/libsha1"
   depends_on "llvm" # failed with llvm@6
@@ -32,7 +32,7 @@ class Mesa < Formula
   #depends_on "linuxbrew/xorg/wayland-protocols" => :recommended
   depends_on "valgrind" => :recommended
   depends_on "linuxbrew/xorg/libglvnd" => :optional
-  depends_on "linuxbrew/xorg/libva" => :recommended
+  depends_on "tz-lom/linux/libva" => :recommended
   depends_on "linuxbrew/xorg/libvdpau"
   depends_on "autoconf" => :build
   depends_on "automake" => :build
